@@ -39,3 +39,16 @@ image_to_webp/
 ├── requirements.txt
 └── README.md
 ```
+
+## 推送到 GitHub
+
+1. 在 [GitHub](https://github.com/new) 上创建新仓库（例如 `image_to_webp`）
+2. 添加远程并推送：
+
+```bash
+git remote add origin https://github.com/你的用户名/image_to_webp.git
+git branch -M main
+git push -u origin main
+```
+
+> `images/` 和 `output/` 已加入 `.gitignore`，不会被上传，可确保私人照片不外泄。
